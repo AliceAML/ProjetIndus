@@ -31,6 +31,7 @@ outputs = model.generate(input_ids,
 
 ## TODO
 
+- [x] générer les phrases
 - [ ] se répartir le travail d'annotation / évaluation
 - [ ] faire les annotations (omissions, hallucinations)
 - [ ] calculer les scores BLEU

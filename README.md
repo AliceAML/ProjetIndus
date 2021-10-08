@@ -1,6 +1,10 @@
 # Projet Indus M2
 
+[Overleaf](https://fr.overleaf.com/project/615c9fe3e1a8120147b935a1)
+[Google Sheets annotation](https://docs.google.com/spreadsheets/d/1RWf7DEeyveHVb6NeW_HFATMZE_G53V4QXr72DgQJ18I/edit?usp=sharing)
+
 modèle : https://huggingface.co/yseop/FNP_T5_D2T_complete
+
 
 ## Fichiers
 

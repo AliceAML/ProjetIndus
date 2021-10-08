@@ -6,6 +6,18 @@
 
 modèle : https://huggingface.co/yseop/FNP_T5_D2T_complete
 
+## TODO
+
+- [x] générer les phrases
+- [x] se répartir le travail d'annotation / évaluation
+- [x] faire les annotations (omissions, hallucinations)
+- [ ] calculer les scores BLEU
+- [ ] comparer score BLEU et score humain (coefficient de Pearson, dispo dans Google Sheets)
+- [ ] bilan : 
+  - nombre d’erreurs
+  - nombre de phrases «conformes»
+  - votre estimation sur BLEU: est-ce que ce score est utile pour
+    évaluer la génération ?
 
 ## Fichiers
 
@@ -33,19 +45,6 @@ outputs = model.generate(input_ids,
 ```
 
 :woman_shrugging:
-
-## TODO
-
-- [x] générer les phrases
-- [x] se répartir le travail d'annotation / évaluation
-- [x] faire les annotations (omissions, hallucinations)
-- [ ] calculer les scores BLEU
-- [ ] comparer score BLEU et score humain (coefficient de Spearman?)
-- [ ] bilan : 
-  - nombre d’erreurs
-  - nombre de phrases «conformes»
-  - votre estimation sur BLEU: est-ce que ce score est utile pour
-    évaluer la génération ?
 
 ## Installer l'environnement virtuel 
 

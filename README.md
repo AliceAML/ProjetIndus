@@ -37,9 +37,10 @@ outputs = model.generate(input_ids,
 ## TODO
 
 - [x] générer les phrases
-- [ ] se répartir le travail d'annotation / évaluation
-- [ ] faire les annotations (omissions, hallucinations)
+- [x] se répartir le travail d'annotation / évaluation
+- [x] faire les annotations (omissions, hallucinations)
 - [ ] calculer les scores BLEU
+- [ ] comparer score BLEU et score humain (coefficient de Spearman?)
 - [ ] bilan : 
   - nombre d’erreurs
   - nombre de phrases «conformes»

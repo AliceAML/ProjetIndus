@@ -12,7 +12,7 @@ modèle : https://huggingface.co/yseop/FNP_T5_D2T_complete
 - [x] se répartir le travail d'annotation / évaluation
 - [x] faire les annotations (omissions, hallucinations)
 - [x] calculer les scores BLEU avec [nltk.align.bleu_score](https://www.nltk.org/_modules/nltk/align/bleu_score.html)
-- [ ] comparer score BLEU et score humain (coefficient de Pearson, dispo dans Google Sheets)
+- [x] comparer score BLEU et score humain (coefficient de Pearson, dispo dans Google Sheets)
 - [ ] bilan : 
   - nombre d’erreurs
   - nombre de phrases «conformes»

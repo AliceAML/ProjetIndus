@@ -1,6 +1,23 @@
 # Projet Indus M2
 
+[Overleaf](https://fr.overleaf.com/project/615c9fe3e1a8120147b935a1)
+
+[Google Sheets annotation](https://docs.google.com/spreadsheets/d/1RWf7DEeyveHVb6NeW_HFATMZE_G53V4QXr72DgQJ18I/edit?usp=sharing)
+
 modèle : https://huggingface.co/yseop/FNP_T5_D2T_complete
+
+## TODO
+
+- [x] générer les phrases
+- [x] se répartir le travail d'annotation / évaluation
+- [x] faire les annotations (omissions, hallucinations)
+- [x] calculer les scores BLEU avec [nltk.align.bleu_score](https://www.nltk.org/_modules/nltk/align/bleu_score.html)
+- [x] comparer score BLEU et score humain (coefficient de Pearson, dispo dans Google Sheets)
+- [ ] bilan : 
+  - nombre d’erreurs
+  - nombre de phrases «conformes»
+  - votre estimation sur BLEU: est-ce que ce score est utile pour
+    évaluer la génération ?
 
 ## Fichiers
 
@@ -28,17 +45,6 @@ outputs = model.generate(input_ids,
 ```
 
 :woman_shrugging:
-
-## TODO
-
-- [ ] se répartir le travail d'annotation / évaluation
-- [ ] faire les annotations (omissions, hallucinations)
-- [ ] calculer les scores BLEU
-- [ ] bilan : 
-  - nombre d’erreurs
-  - nombre de phrases «conformes»
-  - votre estimation sur BLEU: est-ce que ce score est utile pour
-    évaluer la génération ?
 
 ## Installer l'environnement virtuel 
 
